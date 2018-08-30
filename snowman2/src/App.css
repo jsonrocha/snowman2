@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: darkviolet;
+}
+
+h1 {
+  color: lightblue;
+}
+
+.App-header {
+  background-color: white;
+
+  padding: 20px;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.secretWord {
+  margin-top: 10px;
+  font-size: 60px;
+}
+
+.letterButtons {
+  margin: 20px;
+}
+
+.button {
+  cursor: pointer;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.hiddenLetters {
+  margin: 5px;;
+  color: white;
+}
